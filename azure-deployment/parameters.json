@@ -1,0 +1,108 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_DB_name": {
+            "value": "DB"
+        },
+        "virtualMachines_App_name": {
+            "value": "App"
+        },
+        "virtualMachines_DNS_name": {
+            "value": "DNS"
+        },
+        "virtualMachines_CA_01_name": {
+            "value": "CA"
+        },
+        "virtualMachines_Cache_name": {
+            "value": "Cache"
+        },
+        "virtualMachines_DC_01_name": {
+            "value": "DC"
+        },
+        "virtualMachines_FS_01_name": {
+            "value": "FS"
+        },
+        "virtualMachines_CLI_01_name": {
+            "value": "CLI"
+        },
+        "virtualMachines_CSR_01_name": {
+            "value": "WIN-EDGE"
+        },
+        "virtualMachines_CSR_02_name": {
+            "value": "LNX-EDGE"
+        },
+        "routeTables_site_01_rt_name": {
+            "value": "site-01-rt"
+        },
+        "routeTables_site_02_rt_name": {
+            "value": "site-02-rt"
+        },
+        "networkInterfaces_netint_db_name": {
+            "value": "netint-db"
+        },
+        "networkInterfaces_netint_app_name": {
+            "value": "netint-app"
+        },
+        "networkInterfaces_netint_dns_name": {
+            "value": "netint-dns"
+        },
+        "publicIPAddresses_csr_01_pip_name": {
+            "value": "wind-edge-pip"
+        },
+        "publicIPAddresses_csr_02_pip_name": {
+            "value": "lnx-edge-pip"
+        },
+        "networkInterfaces_netint_ca_01_name": {
+            "value": "netint-ca"
+        },
+        "networkInterfaces_netint_cache_name": {
+            "value": "netint-cache"
+        },
+        "networkInterfaces_netint_dc_01_name": {
+            "value": "netint-dc"
+        },
+        "networkInterfaces_netint_fs_01_name": {
+            "value": "netint-fs"
+        },
+        "networkInterfaces_netint_cli_01_name": {
+            "value": "netint-cli"
+        },
+        "networkSecurityGroups_csr_01_nsg_name": {
+            "value": "win-edge-nsg"
+        },
+        "networkSecurityGroups_csr_02_nsg_name": {
+            "value": "lnx-edge-nsg"
+        },
+        "bastionHosts_itsc_site_01_bastion_name": {
+            "value": "site-01-bastion"
+        },
+        "bastionHosts_itsc_site_02_bastion_name": {
+            "value": "site-02-bastion"
+        },
+        "virtualNetworks_itsc_site_01_vnet_name": {
+            "value": "site-01-vnet"
+        },
+        "virtualNetworks_itsc_site_02_vnet_name": {
+            "value": "site-02-vnet"
+        },
+        "networkInterfaces_netint_csr_01706_name": {
+            "value": "netint-csr-01706-outside"
+        },
+        "networkInterfaces_netint_csr_02945_name": {
+            "value": "netint-csr-02945-outside"
+        },
+        "publicIPAddresses_site_01_bastion_pip_name": {
+            "value": "site-01-bastion-pip"
+        },
+        "publicIPAddresses_site_02_bastion_pip_name": {
+            "value": "site-02-bastion-pip"
+        },
+        "networkInterfaces_netint_csr_01_inside_name": {
+            "value": "netint-win-edge-inside"
+        },
+        "networkInterfaces_netint_csr_02_inside_name": {
+            "value": "netint-lnx-edge-inside"
+        }
+    }
+}
